@@ -96,7 +96,7 @@ public class SubscriptionService {
         for(Subscription subscription:subscriptions){
             revenue += subscription.getTotalAmountPaid();
         }
-        return revenue;//
+        return revenue;
     }
 
 }
